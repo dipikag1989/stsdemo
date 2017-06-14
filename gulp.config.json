@@ -1,0 +1,36 @@
+{
+  "client":"./html/",
+  "htmltemplates": "./html/partials/**/*.html",
+  "vendorjs": [
+    "./html/lib/ionic/release/js/ionic.bundle.js",
+    
+    "./html/lib/ngCordova/dist/ng-cordova.js"
+  ],
+  "vendorcss": [
+    "./html/lib/ionicons/css/ionicons.css"
+  ],
+  "css": [
+    "./html/css/*.css"
+  ],
+  "sass": [
+    "./html/scss/**/*.scss"
+  ],
+  "js": [
+    "./html/partials/**/*module*.js",
+    "./html/partials/**/*.js"
+  ],
+  "nodejs": [
+    "./server/**/*.js"
+  ],
+  "fonts": [
+    "./html/fonts/**/*.*",
+    "./html/lib/ionicons/fonts/*.*"
+  ],
+  "images": [
+    "./html/images/**/*.*"
+  ],
+  "data":[
+    "./html/data/**/*.json"
+  ],
+  "build": "./www/"
+}
